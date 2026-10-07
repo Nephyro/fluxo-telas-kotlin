@@ -45,7 +45,7 @@ jobs:
         with:
           files: app/build/outputs/apk/debug/app-debug.apk     # Caminho do arquivo APK gerado pelo Gradle
           tag_name: v1.0-build                                 # Tag fixa para sobrescrever sempre a mesma release "latest"
-          name: "Versão mais recente do APP"                   # Título exibido na página da Release
+          name: "Versão mais recente do app"                   # Título exibido na página da Release
           body: |
             APK gerado automaticamente pelo GitHub Actions a cada commit na branch principal a fim de visualizar o app durante o desenvolvimento.
             Último commit: ${{ github.sha }}  
